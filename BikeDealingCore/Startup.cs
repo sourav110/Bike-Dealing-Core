@@ -27,6 +27,8 @@ namespace BikeDealingCore
         {
             services.AddDbContext<BikeDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BikeDbConnection")));
 
+            services.AddRazorPages().AddRazorRuntimeCompilation();
+
             services.AddControllersWithViews();
         }
 

@@ -1,0 +1,31 @@
+﻿@model BikeDealingCore.Models.Brand
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create New Brand</h2>
+<hr />
+
+<form action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="row form-group">
+        <input asp-for="Id" hidden />
+
+        <div class="col-md-2">
+            <label asp-for="Name"></label>
+        </div>
+
+        <div class="col-md-4">
+            <input asp-for="Name" class="form-control" value="@Model.Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn btn-success">Update</button>
+            <a asp-action="Index" class="btn btn-warning">Cancel</a>
+        </div>
+    </div>
+</form>

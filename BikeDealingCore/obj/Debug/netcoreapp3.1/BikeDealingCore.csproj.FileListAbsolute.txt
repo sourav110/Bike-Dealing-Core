@@ -439,3 +439,5 @@ D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Raz
 D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Razor\Views\Demo\Edit.cshtml.g.cs
 D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Razor\Views\Demo\Index.cshtml.g.cs
 D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Razor\Views\Brands\Index.cshtml.g.cs
+D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Razor\Views\Brands\Create.cshtml.g.cs
+D:\Tutorials\BikeProject\BikeDealing\BikeDealingCore\obj\Debug\netcoreapp3.1\Razor\Views\Brands\Edit.cshtml.g.cs
